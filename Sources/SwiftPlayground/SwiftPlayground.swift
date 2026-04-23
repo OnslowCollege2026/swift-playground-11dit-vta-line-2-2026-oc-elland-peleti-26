@@ -5,7 +5,7 @@
 struct SwiftPlayground {
     static func main() {
         print("Enter an adjective:")
-        let adjective1 = readline()!
+        let adjective1 = readLine()!
 
         print("Enter a noun:")
         let noun1 = readLine()!
