@@ -11,15 +11,9 @@ struct SwiftPlayground {
         let noun1 = readLine()!
 
         print("Enter a verb:")
-        let verb1 = readLine()!
-        
-        print("Enter a adjective:")
-        let adjective2 = readLine()!
+        let verb1 = readLine()!  
 
-        print("Enter a verb:")
-        let noun2 = readLine()!
-
-        let madLibString = "Once upon a time, there was a \(adjective1) \(noun1) who loved to \(verb1) everyday."
+    let madLibString = "Once upon a time, there was a \(adjective1) \(noun1) who loved to \(verb1) everyday."
 
 print(madLibString)
 }
