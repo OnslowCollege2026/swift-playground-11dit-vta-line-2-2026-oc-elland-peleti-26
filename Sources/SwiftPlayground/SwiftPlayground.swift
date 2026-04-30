@@ -17,8 +17,5 @@ struct SwiftPlayground {
 
 print(madLibString)
 
-
-
-
 }
 }
