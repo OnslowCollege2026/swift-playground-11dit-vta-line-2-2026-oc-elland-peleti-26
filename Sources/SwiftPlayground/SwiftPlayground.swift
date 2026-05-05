@@ -6,7 +6,7 @@ struct SwiftPlayground {
     static func main() {
     
     
-    if grade >= 90 && grade < 100
+    if grade >= 90 && grade < 100 
 
 }
 }
