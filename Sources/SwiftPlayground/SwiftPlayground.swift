@@ -4,7 +4,9 @@
 @main
 struct SwiftPlayground {
     static func main() {
-    if
+    
+    
+    if grade >= 90 && grade < 100
 
 }
 }
