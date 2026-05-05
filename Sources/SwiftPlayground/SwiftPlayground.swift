@@ -5,8 +5,11 @@
 struct SwiftPlayground {
     static func main() {
     
+    print("Enter your score: ")
+    let 
+
+
     
-    if grade >= 90 && grade < 100 
 
 }
 }
