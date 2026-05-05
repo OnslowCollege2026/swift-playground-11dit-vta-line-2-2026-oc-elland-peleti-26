@@ -6,7 +6,7 @@ struct SwiftPlayground {
     static func main() {
     
     print("Enter your score: ")
-    let 
+    
 
 
     
