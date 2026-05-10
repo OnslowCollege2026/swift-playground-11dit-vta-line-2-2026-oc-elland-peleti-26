@@ -5,7 +5,9 @@
 struct SwiftPlayground {
     static func main() {
     
-    print("Enter your score: ")
+    let adultFares: [Int] = [1, 2, 3]
+    print(_:)
+    
     
 
 
