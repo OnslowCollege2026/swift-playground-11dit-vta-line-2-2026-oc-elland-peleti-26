@@ -17,11 +17,20 @@ struct SwiftPlayground {
         let madLibString = "Once upon a time, there was a \(adjective1) \(noun1) who loved to \(verb1) everyday."
 
 print(madLibString)
-    
-    
+let names = ["Melissa", "Ponesi", "Killy"]
+
+names.forEach { name in 
+print ("\(name)is invited to my Birthday's party ")}
+
+print(names)
+(15...30).forEach { number in 
+    print(number)
+}
 
 
-    
+
+
+
 
 }
 }
