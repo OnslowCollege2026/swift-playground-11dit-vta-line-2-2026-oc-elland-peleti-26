@@ -26,7 +26,19 @@ print(names)
 (15...30).forEach { number in 
     print(number)
 }
+stride(from: 2000, to: 2026, by: 4).forEach { year in
+    print(year)
+}
+stride(from: 100, to: 0, by: -1).forEach { i in
 
+if i % 3 == 0 {
+    print("No remainder for \(i)")
+} else {
+    print("Remainder for \(i) is \(i % 3)")
+
+}
+
+}
 
 
 
