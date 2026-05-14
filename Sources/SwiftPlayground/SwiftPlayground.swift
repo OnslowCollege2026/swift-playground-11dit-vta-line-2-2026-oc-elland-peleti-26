@@ -37,8 +37,9 @@ if i % 3 == 0 {
     print("Remainder for \(i) is \(i % 3)")
 
 }
-
 }
+
+
 
 
 
