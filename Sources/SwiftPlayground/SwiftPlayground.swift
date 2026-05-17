@@ -64,7 +64,33 @@ while adding{
         }
     }
     }
+    // Ask a user for ingredients
+    var ingredients: [String] = []
+    var isRunning: Bool = true 
+
+
+    while isRunning {
+        print("Enter the ingredient or press Enter to finish: ")
+        let input = readLine()!
+        if input == "" {
+            isRunning = false 
+        
+        }else{
+            ingredients.append(input)
+        }
+    }
     
+    print("Ingredient list: ")
+    for ingredient in ingredients {
+        print(ingredient)
+
+        if ingredient == "chocolate" {
+            print("Yum!")
+
+        }
+    }
+
+    print("let's start cooking! ")
     }
     }
 
