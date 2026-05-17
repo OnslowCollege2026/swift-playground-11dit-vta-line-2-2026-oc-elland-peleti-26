@@ -55,12 +55,12 @@ while adding{
     print("This is the list you have for now")
     print(invitees)
     print("who would you like to remove from the invitee list?")
-    let removedInvitee == readLine()!
+    let removedInvitee = readLine()!
     if removedInvitee == ""{
         deleting = false 
     }else{
         if let index = invitees.firstIndex(of: removedInvitee){
-        
+        invitees.remove(at:index)
         }
     }
     }
